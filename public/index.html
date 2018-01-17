@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,8 @@
 
 
     <link rel="icon" href="./img/noun_627105_cc.png" type="image/gif" sizes="16x16">
+
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
@@ -36,6 +38,12 @@
   </head>
   <body>
 
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="./js/accountreward.js" defer></script>
+
     <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
     <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
 
@@ -54,38 +62,9 @@
           </div>
           <div id="listAccounts">
             <h3>Accounts:</h3>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <a href="#" class="list-group-item list-group-item-action"><p>Essential Checking x1234</p>
-                <p class="balance">Balance: $3,451.23</p></a>
-                <p>Cash Back Rewards Program: enroll today!</p>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary">enroll</button>
-                  <button type="button" class="btn btn-secondary" style="visibility: hidden;">redeem</button>
+            <div id="userAccountsList">
 
-                </div>
-              </li>
-              <li class="list-group-item">
-                <a href="#" class="list-group-item list-group-item-action"><p>My Savings x4321</p>
-                <p class="balance">Balance: $23,123.67</p></a>
-                <p>Cash Back Rewards Program: 4523 points</p>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary" style="visibility: hidden;">enroll</button>
-                  <button type="button" class="btn btn-secondary" style="visibility: visible;">redeem</button>
-
-                </div>
-              </li>
-              <li class="list-group-item">
-                <a href="#" class="list-group-item list-group-item-action"><p>Main St Home x8899</p>
-                <p class="balance">Balance: $80,675.34</p></a>
-                <p style="visibility: hidden;">Cash Back Rewards Program: enroll today!</p>
-                <div class="btn-group" role="group" aria-label="Basic example" style="visibility: hidden;">
-                  <button type="button" class="btn btn-secondary">enroll</button>
-                  <button type="button" class="btn btn-secondary" style="visibility: hidden;">redeem</button>
-
-                </div>
-              </li>
-            </ul>
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-6">
@@ -95,8 +74,8 @@
           </div>
 
           <div id="accountDetails">
-            <p>Account Number: 12121234</p>
-            <p>Checking</p>
+            <p id="numberField"></p>
+            <p id="accountField"></p>
           </div>
         </div>
       </div>
