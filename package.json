@@ -1,0 +1,15 @@
+{
+  "name": "accountrewards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devin Hurd",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "request": "^2.83.0"
+  }
+}

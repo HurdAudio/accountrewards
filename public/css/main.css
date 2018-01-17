@@ -1,0 +1,48 @@
+#title {
+  font-family: 'Roboto', sans-serif;
+  background: #eeeeee;
+  border-bottom: 1px solid #000000;
+  box-shadow: -1px 1px 1px #BBBBBB, -2px 2px 1px #BBBBBB, -3px 3px 1px #BBBBBB, -4px 4px 1px #BBBBBB;
+  margin: 0 0 2vmin 0;
+}
+
+
+
+#title img {
+  height: 15vmin;
+  margin: 1vmin 0 5vmin 0;
+}
+
+#title h1 {
+  margin: -12vmin 4vmin 0 14vmin;
+  font-size: 36px;
+}
+
+#accountHolderName {
+  margin-left: 2vmin;
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+}
+
+#userTag {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+}
+
+#listAccounts {
+  /* box-shadow: -1px 1px 1px #BBBBBB, -2px 2px 1px #BBBBBB, -3px 3px 1px #BBBBBB, -4px 4px 1px #BBBBBB; */
+  font-family: 'Roboto', sans-serif;
+  padding: 0 2vmin 0 2vmin;
+}
+
+#accountDetails {
+  box-shadow: -1px 1px 1px #BBBBBB, -2px 2px 1px #BBBBBB, -3px 3px 1px #BBBBBB, -4px 4px 1px #BBBBBB;
+  background: #eeeeee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin-top: 7vmin;
+  margin-right: 2vmin;
+  height: auto;
+
+  padding: 0 2vmin 0 1vmin;
+}
